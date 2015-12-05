@@ -1,0 +1,38 @@
+h4{
+  font-size: 1.4em;
+  margin-top: 10px;
+  font-family: "Slabo 27px", serif;
+  font-weight: bold;
+  background: black;
+  color: white;
+  margin: 0px auto;
+  border-top: 2px solid red;
+  padding-left: 15px;
+  width: 300px;
+}
+
+.listWrapper > ul{
+  margin: 0px auto;
+  background: white;
+  padding-left: 15px;
+  width: 300px;
+}
+
+.wrapper{
+  max-width: 75%;
+  margin: 10px auto;
+}
+
+.listWrapper{
+  margin: auto 35%;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h4:last-child{
+  border-bottom: 2px solid red;
+}

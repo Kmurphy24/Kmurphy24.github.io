@@ -1,0 +1,41 @@
+.mainWrapper{
+  max-width: 75%;
+  margin: 20px auto;
+}
+
+.hours li{
+  margin: 15px auto;
+  list-style: disc;
+  margin-left: 35px;
+}
+
+.hours li:first-child{
+  color: blue;
+  font-size: 1.4em;
+  font-weight: bold;
+  list-style: none;
+  margin-left: 0px;
+}
+
+.times{
+  max-width: 75%;
+  margin: 10px 50px 35px 50px;
+}
+
+b{
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Slabo 27px", serif;
+  font-size: 1.2em;
+  color: #3366ff;
+}
+
+.storeInfo{
+  margin-top: 35px;
+}
+
+form{
+  margin-top: 50px;
+}

@@ -1,0 +1,194 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body{
+	font-size: 20px;
+	background: #B0E0E6;
+	line-height: 1.5;
+	cursor: default;
+}
+
+#container{
+  width: 97%;
+  margin: 0 auto;
+}
+
+/******  header *********/
+#pageHeader{
+	overflow: hidden;
+	border-bottom: 4px solid #FFF;
+	padding: 0 2%
+}
+
+h1{
+	font-size: 3.5em;
+	font-weight: bold;
+	font-family: "Slabo 27px", serif;
+	float: left;
+}
+
+h2{
+	font-size: 1.25em;
+}
+
+.wrapper{
+	max-width: auto;
+	margin: auto;
+}
+
+#pageHeader h1{
+	margin: 0px auto 10px 10px;
+	color: #3366ff;
+	text-shadow: -4px -4px #000;
+}
+
+.stores{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  width: auto;
+  background: #B22222;
+}
+.addresses li{
+	display: block;
+	float: left;
+	padding: 10px;
+	border: 3px solid #000;
+  border-right: none;
+	color: #fff;
+  text-shadow: 2px 2px #3366ff;
+	font-weight: bold;
+  width: 33.333%;
+  height: 100px;
+  line-height: 1em;
+}
+
+.addresses li:last-child{
+	border-right: 3px solid #000;
+}
+
+
+
+.holden h2{
+  font-size: 1em;
+}
+
+
+
+.worcester h2{
+  font-size: .9em;
+}
+
+
+
+.eastside h2{
+  font-size: 1em;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.menu{
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu li{
+	float: left;
+  border-right: 2px solid #000;
+}
+
+.menu li:last-child{
+  border: none;
+}
+
+.menu li a{
+	display: block;
+	text-decoration: none;
+  text-align: center;
+	padding: 0px 35px;
+	color: #3366ff;
+}
+
+a:hover{
+	background: #000;
+  color: #FFF !important;
+}
+.stores p{
+	font-size: .75em;
+	font-weight: bold;
+}
+
+/** main section **/
+#main{
+	border-bottom: 4px solid #FFF;
+}
+
+.pictures{
+  text-align: center;
+}
+
+.writeUp{
+  max-width: 75%;
+  margin: 40px auto 25px auto;
+}
+
+.writeUp > p{
+  font-family: "Slabo 27px", serif;
+  margin: 25px 0px;
+}
+
+p > a{
+  text-decoration: none;
+  color: blue;
+}
+
+
+/**footer**/
+footer{
+	float: left;
+	font-size: .6em;
+  width: 100%;
+}
+
+.disc{
+  font-size: 1em;
+  float: right;
+}
+
+/**misc**/
+em{
+  font-weight: bold;
+  color: red;
+}
+
+.pictures{
+  margin: 10px auto;
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.rotate{
+
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
